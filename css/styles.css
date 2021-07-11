@@ -3,4 +3,59 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #777;
+
+}
+.header{
+    height: 95vh;
+    background-image: linear-gradient( to right bottom, rgba(52, 241, 83, 0.966),
+    rgba(18, 110, 106, 0.596)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    margin: 30px;
+    clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+    position: relative;
+
+}
+
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+}
+.logo{
+    height: 35px;
+}
+.heading-primary{
+ color: white;
+ text-transform: uppercase;
+
+}
+
+.heading-primary-main{
+ display: block;
+ font-size: 4rem;
+ font-weight: 400;
+ letter-spacing: 2rem;
+}
+.heading-primary-sub{
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1rem;
+
+}
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
